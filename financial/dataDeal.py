@@ -179,7 +179,7 @@ np.set_printoptions(suppress=True)
 # accountAnalysis("王秀兰")
 # storeByClient("王秀兰")
 # filter()
-cashType = ["现金支付","现金存入","ATM取款","网络ATM取款","ATM存款"]
-transferType = ["转账存入","转账支取","跨行转入","汇出境外"]
-countMeanByType(cashType,"cash")
+# cashType = ["现金支付","现金存入","ATM取款","网络ATM取款","ATM存款"]
+transferType = ["转帐存入","转帐支取","跨行转入","汇出境外"]
+countMeanByType(transferType,"transferCount")
 # countMean()

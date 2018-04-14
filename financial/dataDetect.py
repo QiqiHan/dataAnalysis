@@ -4,6 +4,9 @@ import numpy as np
 import copy
 from scipy.stats import pearsonr
 
+#分析用户的个人行为
+#一段时间交易行为的均值 和 方差 判断异常操作的次数，即离均值u超过3倍方差的点 所占比率
+
 def detect():
     blackLists = []
     client  = pd.read_csv('E://trainData//financial//841//data//client.csv',encoding='UTF-8')
